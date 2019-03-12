@@ -16,9 +16,9 @@ def long_planeteer_calls (calls)
   end 
 end
 
-def find_the_cheese (cheese?)
+def find_the_cheese (cheese)
  cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese?.each do |x|
+  cheese.each do |x|
     if x = cheese_types[0]
       puts "cheddar"
     elsif x = cheese_types[1]
