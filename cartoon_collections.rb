@@ -18,7 +18,8 @@ end
 
 def find_the_cheese (cheese?)
   cheese?.each do |x|
-    x
+    if x = cheese_types[0]
+      puts "#{cheese_types[0]"
   end 
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
