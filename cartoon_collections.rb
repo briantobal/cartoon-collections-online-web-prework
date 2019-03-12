@@ -11,7 +11,8 @@ def summon_captain_planet (planeteer)
 end
 
 def long_planeteer_calls (calls)
-  # Your code here
+  nums.select do |x|
+    x.even? 
 end
 
 def find_the_cheese# code an argument here
