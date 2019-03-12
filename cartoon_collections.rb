@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls (calls)
   nums.select do |x|
-    x.even? 
+    x.length > 4 
   end 
 end
 
